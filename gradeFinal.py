@@ -17,6 +17,7 @@ def grade():
     badNumber = int(input("How many songs did you not like? "))
   except ValueError:
     print("SYKE... that's the wrong number")
+    print("but seriously that's not a number, so try again")
 
   favs = input("Which songs were your favorites? ")
   bad = input("Which songs were your least favorites? ")
