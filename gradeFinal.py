@@ -15,7 +15,7 @@ def grade():
     goodNumber = int(input("How many songs did you think were good? "))
     mehNumber = int(input("How many songs did you think were neither good nor bad but 'meh'? "))
     badNumber = int(input("How many songs did you not like? "))
-  except ValueError:
+  except NameError:
     print("SYKE... that's the wrong number")
     print("but seriously that's not a number, so try again")
 
